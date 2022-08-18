@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSS only -->
+    <link href="css/login.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="main-login">
+        <div class="login">
+            <div class="card-login">
+                <div class="textfield">
+                    <label for="cnpj">CNPJ</label>
+                    <input type="text" id="cnpj" name="cnpj" placeholder="99.999.999/9999-99">
+                </div>
+                <div class="telphone">
+                    <div class="textfield">
+                        <label for="ddd">DDD</label>
+                        <input type="number" id="ddd" name="ddd" placeholder="53" class="ddd">
+                    </div>
+                    <div class="textfield">
+                        <label for="tel">Telefone</label>
+                        <input type="tel" id="tel" name="tel" placeholder="9 9999-9999" class="tel">
+                    </div>
+                </div>
+                <div class="textfield">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="seuemail@email.com">
+                </div>
+                <div class="sex-and-age">
+                    <div class="textfield">
+                        <label for="sexo">Sexo</label>
+                        <select name="sexo" id="sexo" class="sexo">
+                            <option value="masculino" >Masculino</option>
+                            <option value="feminino" >Feminino</option>
+                        </select>
+                    </div>
+                    <div class="textfield">
+                        <label for="idade">Idade</label>
+                        <input type="number" id="idade" name="idade" class="idade" placeholder="37">
+                    </div>
+                </div>
+
+               <div class="btn">
+                    <div class="textfield btn-account">
+                        <button type="submit">CRIAR CONTA</button>
+                    </div>
+                    <div class="textfield btn-clear">
+                        <button type="reset">LIMPAR</button>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
+    
+       
+
+<script src="js/bootstrap.bundle.min.js" ></script>
+</body>
+</html>

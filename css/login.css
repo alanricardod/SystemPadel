@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+body{
+    margin: 0;
+}
+.main-login{
+  width: 100vw;
+  height: 100vh;
+  background-color:#2641a8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login{
+    width: 40vw;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.card-login{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.card-login > .textfield{
+    margin-bottom: 5%;
+
+}
+
+.textfield{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 90%;
+    height: 10%;   
+}
+.telphone{
+    display: flex;
+    align-items: flex-start;
+    width: 90%;
+    height: 10%;
+    margin-bottom: 5%;
+
+}
+
+
+.textfield > input,select{
+    width: 100%;
+    height: 80%;
+    border: 1px solid #DDDDDD;
+    border-radius: 20px;
+    background-color:#2641a8ff ;
+    font-size: 12pt;
+    color: white;
+    outline: none;
+    box-sizing: border-box;
+       
+}
+.telphone>.textfield:nth-child(1){
+    display: flex;
+    width: 20%;
+    height: 100%; 
+    
+    
+}
+.telphone>.textfield:nth-child(2){
+    display: flex;
+    width: 70%;
+    height: 100%; 
+    margin-left: 10%;
+    
+}
+.telphone >.textfield > .ddd, .tel{
+    width: 100%;
+    height: 80%;
+    border: 1px solid #DDDDDD;
+    border-radius: 20px;
+    background-color:#2641a8ff ;
+    font-size: 12pt;
+    color: white;
+    outline: none;
+    box-sizing: border-box;
+    
+}
+
+input::placeholder{
+    color: white;
+    opacity: 40%;
+    font-size: 12pt;
+}
+select > option > p > {
+    color:white; 
+    opacity:40%; 
+}
+label{
+    color: white;
+    /*visibility: hidden;*/
+    padding-left: 5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.textfield > button{
+    width: 100%;
+    height: 80%;
+    border-radius: 20px;
+    background-color:#E84855 ;
+    color: white;
+    outline: none;
+    box-sizing: border-box;
+    border: none;
+    font-family: 'Roboto' , sans-serif; 
+    font-size: 14pt;
+    cursor:pointer;
+
+}
+.remember-password{
+    display: flex;
+    align-content: flex-end;
+    padding-bottom: 5%;
+    margin-left: 50%;
+    
+}
+
+.remember-password > p {
+    color:#03B048 ;
+    font-family: 'Inter Bold', sans-serif;
+    align-content: flex-end;
+    cursor: pointer;   
+    
+}
+.remember-password:hover{
+    text-decoration: underline #03B048;
+}
+.register{
+    width: 90%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5%;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 20px;
+    font-size: 14pt;
+    background-color: #586DD8;
+    
+
+}
+
+a:link{
+    color: white;
+    text-decoration: none;
+
+}
+a:hover{
+    cursor:pointer;
+    text-decoration: underline white;
+}
+a:visited{
+    color:white;
+}
+.sex-and-age{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 90%;
+    height: 10%;
+
+}
+.sex-and-age >.textfield{
+    display: flex;
+    width: 100%;
+    height: 100%; 
+    
+}
+
+.sex-and-age >.textfield > .sexo{
+    width: 100%;
+    height: 80%;
+    border: 1px solid #DDDDDD;
+    border-radius: 20px;
+    background-color:#2641a8ff ;
+    font-size: 12pt;
+    color: white;
+    outline: none;
+    box-sizing: border-box;
+    
+}
+.sex-and-age >.textfield > .idade{
+    width: 100%;
+    height: 80%;
+    border: 1px solid #DDDDDD;
+    border-radius: 20px;
+    background-color:#2641a8ff ;
+    font-size: 12pt;
+    color: white;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.sex-and-age>.textfield:nth-child(1){
+    display: flex;
+    width: 40%;
+    height: 100%; 
+    
+    
+}
+.sex-and-age>.textfield:nth-child(2){
+    display: flex;
+    width: 30%;
+    height: 100%; 
+    
+}
+.btn{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 90%;
+    height: 10%;
+}
+.btn >.btn-clear, .btn-account{
+    display: flex;
+    width: 45%;
+    height: 100%; 
+    margin-top: 10%;
+      
+}
